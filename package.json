@@ -1,0 +1,18 @@
+{
+  "name": "hackgtserver",
+  "version": "1.0.0",
+  "description": "web server to act as intermediary between hackgtApp and NCR API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Atul Merchia",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "mongodb": "^3.3.3",
+    "node-fetch": "^2.6.0"
+  }
+}
