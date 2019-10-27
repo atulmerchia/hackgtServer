@@ -3,7 +3,7 @@ const express = require('express');
 const api = require('./api');
 const path = require('path');
 const data = require('./barcodes.json')
-const PORT = 5000;
+const PORT = process.env.port || 5000;
 
 const app = express();
 
